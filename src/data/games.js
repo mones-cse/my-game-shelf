@@ -1,11 +1,14 @@
 // Images live in /public/games/<slug>/ — poster, hero, and numbered screenshots.
+// BASE_URL keeps paths working when the site is served from a sub-path (GitHub Pages).
+const dir = (slug) => `${import.meta.env.BASE_URL}games/${slug}`
+
 // Pass heroInGallery=false when the hero image is already one of the screenshots.
 const img = (slug, shots, heroInGallery = true) => ({
-  poster: `/games/${slug}/poster.jpg`,
-  hero: `/games/${slug}/hero.jpg`,
+  poster: `${dir(slug)}/poster.jpg`,
+  hero: `${dir(slug)}/hero.jpg`,
   gallery: [
-    ...(heroInGallery ? [`/games/${slug}/hero.jpg`] : []),
-    ...Array.from({ length: shots }, (_, i) => `/games/${slug}/shot${i + 1}.jpg`),
+    ...(heroInGallery ? [`${dir(slug)}/hero.jpg`] : []),
+    ...Array.from({ length: shots }, (_, i) => `${dir(slug)}/shot${i + 1}.jpg`),
   ],
 })
 
@@ -461,8 +464,8 @@ export const games = [
 const wish = (slug, data) => ({
   slug,
   ...data,
-  poster: `/games/wish-${slug}/poster.jpg`,
-  hero: `/games/wish-${slug}/hero.jpg`,
+  poster: `${dir(`wish-${slug}`)}/poster.jpg`,
+  hero: `${dir(`wish-${slug}`)}/hero.jpg`,
 })
 
 export const wishlist = [
