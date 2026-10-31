@@ -39,6 +39,19 @@ export const games = [
     ...img('commandos', 4),
   },
   {
+    slug: 'desperados',
+    title: 'Desperados',
+    subtitle: 'Wanted Dead or Alive',
+    year: 2001,
+    studio: 'Spellbound',
+    genre: 'Strategy',
+    accent: '#e0782c',
+    tagline: 'Six guns. One bounty.',
+    summary:
+      'New Mexico, 1881. Bounty hunter John Cooper takes the job of catching the bandit El Diablo, whose gang keeps robbing the railroad. He recruits a crew of old friends, each with their own skills, from the doctor Sam to the card sharp Kate. A real-time tactics game in the style of Commandos: plan every move, distract guards and take out a whole town without being seen.',
+    ...img('desperados', 3),
+  },
+  {
     slug: 'cod-wwii',
     title: 'Call of Duty',
     subtitle: 'WWII',
@@ -91,17 +104,16 @@ export const games = [
     ...img('the-last-of-us', 4),
   },
   {
-    slug: 'god-of-war-ragnarok',
+    slug: 'god-of-war',
     title: 'God of War',
-    subtitle: 'Ragnarök',
-    year: 2022,
+    year: 2018,
     studio: 'Santa Monica Studio',
     genre: 'Action',
-    accent: '#7fb4d9',
-    tagline: 'Ragnarök is coming.',
+    accent: '#c8423a',
+    tagline: 'A new beginning.',
     summary:
-      'Fimbulwinter grips the nine realms as Ragnarök, the prophesied end of the world, draws near. Kratos and a teenage Atreus, hunted by Odin and Thor, travel across all nine realms as Atreus searches for the truth about his identity as Loki, and Kratos has to decide whether to fight fate or embrace it. Bigger battles, the Blades of Chaos and the Draupnir Spear, and an emotional ending to the Norse saga.',
-    ...img('god-of-war-ragnarok', 4),
+      'Years after his vengeance against the Olympian gods, Kratos lives as a man in the lands of Norse gods and monsters. After his wife dies, he and his young son Atreus set out to scatter her ashes from the highest peak in the nine realms. A father learning to be a teacher, a boy learning who he is, the Leviathan Axe, and an unbroken single-shot camera reinvent the series.',
+    ...img('god-of-war', 4),
   },
   {
     slug: 'horizon-zero-dawn',
@@ -213,6 +225,7 @@ export const games = [
     studio: 'Crystal Dynamics',
     genre: 'Adventure',
     accent: '#5f9fc4',
+    status: 'playing',
     tagline: 'Legends become reality.',
     summary:
       'Following her father’s research, Lara Croft travels to the frozen wilderness of Siberia to find the lost city of Kitezh and the Divine Source, an artifact said to grant immortality. She has to get there before the paramilitary order Trinity does. The 20 Year Celebration edition adds the Blood Ties story set in Croft Manor, the Baba Yaga chapter, Lara’s Nightmare and the co-op Endurance mode.',
@@ -485,7 +498,8 @@ export const wishlist = [
   }),
   wish('days-gone', {
     title: 'Days Gone',
-    year: 2019,
+    subtitle: 'Remastered',
+    year: 2025,
     studio: 'Bend Studio',
     accent: '#b86b3a',
     pitch: 'A drifter biker surviving huge Freaker hordes in the Pacific Northwest.',
@@ -542,11 +556,11 @@ export const wishlist = [
   }),
   wish('plague-tale', {
     title: 'A Plague Tale',
-    subtitle: 'Innocence',
+    subtitle: 'Series',
     year: 2019,
     studio: 'Asobo Studio',
     accent: '#9fb3b8',
-    pitch: 'Amicia protects her little brother Hugo through plague-ridden 1348 France.',
+    pitch: 'Innocence and Requiem: Amicia protects her little brother Hugo through plague-ridden 14th-century France.',
   }),
   wish('elden-ring', {
     title: 'Elden Ring',
@@ -640,7 +654,93 @@ export const wishlist = [
     accent: '#e0453a',
     pitch: 'An undercover cop takes on the Hong Kong triads with kung fu and car chases.',
   }),
+  wish('god-of-war-ragnarok', {
+    title: 'God of War',
+    subtitle: 'Ragnarök',
+    year: 2022,
+    studio: 'Santa Monica Studio',
+    accent: '#7fb4d9',
+    pitch: 'Fimbulwinter falls as Kratos and Atreus face Odin, Thor and the end of the Norse saga.',
+  }),
+  wish('007-first-light', {
+    title: '007',
+    subtitle: 'First Light',
+    year: 2026,
+    studio: 'IO Interactive',
+    accent: '#d9b25c',
+    pitch: 'A young James Bond earns his licence to kill in an origin story from the Hitman studio.',
+  }),
+  wish('mw4', {
+    title: 'Call of Duty',
+    subtitle: 'Modern Warfare 4',
+    year: 2026,
+    studio: 'Infinity Ward',
+    accent: '#8fbf3f',
+    pitch: 'The Modern Warfare saga returns with a new campaign, multiplayer and DMZ.',
+  }),
+  wish('ff7-rebirth', {
+    title: 'Final Fantasy VII',
+    subtitle: 'Rebirth',
+    year: 2024,
+    studio: 'Square Enix',
+    accent: '#e8a046',
+    pitch: 'Cloud and friends leave Midgar and chase Sephiroth across a huge open world.',
+  }),
+  wish('re4', {
+    title: 'Resident Evil 4',
+    subtitle: 'with Separate Ways',
+    year: 2023,
+    studio: 'Capcom',
+    accent: '#b23a2e',
+    pitch: 'Leon’s rescue mission in rural Spain, rebuilt. Separate Ways adds Ada Wong’s side of the story.',
+  }),
+  wish('sifu', {
+    title: 'Sifu',
+    year: 2022,
+    studio: 'Sloclap',
+    accent: '#e0453a',
+    pitch: 'A kung fu revenge story where every death ages you, and mastery is the only way through.',
+  }),
+  wish('stellar-blade', {
+    title: 'Stellar Blade',
+    year: 2024,
+    studio: 'Shift Up',
+    accent: '#4aa3e8',
+    pitch: 'Eve drops onto a ruined Earth to reclaim it from the Naytiba with fast, flashy blade combat.',
+  }),
+  wish('alan-wake-2', {
+    title: 'Alan Wake 2',
+    year: 2023,
+    studio: 'Remedy Entertainment',
+    accent: '#d6233a',
+    pitch: 'Survival horror split between FBI agent Saga Anderson and a writer trapped in the Dark Place.',
+  }),
+  wish('dmc5', {
+    title: 'Devil May Cry 5',
+    year: 2019,
+    studio: 'Capcom',
+    accent: '#c8202f',
+    pitch: 'Nero, Dante and the mysterious V take on a demon tree in stylish, combo-heavy action.',
+  }),
+  wish('returnal', {
+    title: 'Returnal',
+    year: 2021,
+    studio: 'Housemarque',
+    accent: '#3fc8c0',
+    pitch: 'A roguelike bullet-hell where astronaut Selene relives every death on a shifting alien world.',
+  }),
+  wish('sekiro', {
+    title: 'Sekiro',
+    subtitle: 'Shadows Die Twice',
+    year: 2019,
+    studio: 'FromSoftware',
+    accent: '#d0742c',
+    pitch: 'A one-armed shinobi in Sengoku Japan. Deflect, counter and die, then rise again.',
+  }),
 ]
+
+// Newest releases first; ties keep the order they were added.
+wishlist.sort((a, b) => b.year - a.year)
 
 // completed = finished the story, played = multiplayer with no ending, playing = still in progress
 export const STATUS = {
