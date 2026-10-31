@@ -22,11 +22,20 @@ export default function Wishlist({ games }) {
               <span className="wish-heart" aria-hidden>
                 ♥
               </span>
-              {g.starred && (
-                <span className="wish-star" title="Starred">
-                  ★
-                </span>
-              )}
+              <span className="wish-badges">
+                {g.starred && (
+                  <span className="wish-badge wish-star" title="Starred">
+                    ★
+                  </span>
+                )}
+                {g.movie && (
+                  <span className="wish-badge wish-movie" title="Watch as a movie">
+                    <svg viewBox="0 0 24 24" aria-hidden>
+                      <path d="M4 10h16v9a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9Zm-.4-4.7 14.6-3.9a1 1 0 0 1 1.2.7l.6 2.3L4.8 8.6l-.6-2.1a1 1 0 0 1 .7-1.2Zm3.1-.4 2.2 2.6 2-.5L8.7 4.4l-2 .5Zm5.2-1.4 2.2 2.6 2-.5-2.2-2.6-2 .5Z" />
+                    </svg>
+                  </span>
+                )}
+              </span>
             </div>
             <div className="wish-text">
               <span className="wish-meta">

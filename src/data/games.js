@@ -474,7 +474,7 @@ export const games = [
 ]
 
 // Games I want to play next — only a cover and a backdrop each.
-// starred: true marks the ones I want to play first.
+// starred: true marks the ones I want to play first; movie: true marks the ones to watch as a story playthrough.
 const wish = (slug, data) => ({
   slug,
   ...data,
@@ -500,6 +500,7 @@ export const wishlist = [
     pitch: 'Ellie’s story of revenge and its cost, five years after the first game.',
   }),
   wish('days-gone', {
+    starred: true,
     title: 'Days Gone',
     subtitle: 'Remastered',
     year: 2025,
@@ -574,6 +575,7 @@ export const wishlist = [
     pitch: 'Innocence and Requiem: Amicia protects her little brother Hugo through plague-ridden 14th-century France.',
   }),
   wish('elden-ring', {
+    movie: true,
     starred: true,
     title: 'Elden Ring',
     year: 2022,
@@ -624,6 +626,7 @@ export const wishlist = [
     pitch: 'The first three Uncharted adventures, remastered: where Nate’s story starts.',
   }),
   wish('spiderman-2', {
+    movie: true,
     title: 'Marvel’s Spider-Man 2',
     year: 2023,
     studio: 'Insomniac Games',
@@ -733,6 +736,7 @@ export const wishlist = [
     pitch: 'Eve drops onto a ruined Earth to reclaim it from the Naytiba with fast, flashy blade combat.',
   }),
   wish('alan-wake-2', {
+    movie: true,
     title: 'Alan Wake 2',
     year: 2023,
     studio: 'Remedy Entertainment',
@@ -748,6 +752,7 @@ export const wishlist = [
     pitch: 'Nero, Dante and the mysterious V take on a demon tree in stylish, combo-heavy action.',
   }),
   wish('returnal', {
+    movie: true,
     title: 'Returnal',
     year: 2021,
     studio: 'Housemarque',
@@ -809,11 +814,11 @@ export const wishlist = [
   wish('ff7-remake', {
     starred: true,
     title: 'Final Fantasy VII',
-    subtitle: 'Remake Intergrade',
+    subtitle: 'Remake',
     year: 2020,
     studio: 'Square Enix',
     accent: '#7fa8d9',
-    pitch: 'Part one of the remake: Cloud and AVALANCHE fight Shinra in Midgar, plus Yuffie’s INTERmission.',
+    pitch: 'Part one of the remake: Cloud and AVALANCHE take on Shinra in the city of Midgar.',
   }),
   wish('indiana-jones', {
     title: 'Indiana Jones',
@@ -982,6 +987,15 @@ export const wishlist = [
     studio: 'DICE',
     accent: '#5f8fc4',
     pitch: 'World War II with destructible buildings, fortifications and untold War Stories.',
+  }),
+  wish('crisis-core', {
+    starred: true,
+    title: 'Crisis Core',
+    subtitle: 'Final Fantasy VII Reunion',
+    year: 2022,
+    studio: 'Square Enix',
+    accent: '#5ab8ff',
+    pitch: 'The prequel: SOLDIER Zack Fair’s story, and how Cloud and Sephiroth became who they are.',
   }),
 ]
 
