@@ -484,6 +484,7 @@ const wish = (slug, data) => ({
 
 export const wishlist = [
   wish('horizon-forbidden-west', {
+    starred: true,
     title: 'Horizon Forbidden West',
     year: 2022,
     studio: 'Guerrilla Games',
@@ -491,6 +492,7 @@ export const wishlist = [
     pitch: 'Aloy’s journey continues west, into a dying frontier of new machines.',
   }),
   wish('tlou-part-2', {
+    starred: true,
     title: 'The Last of Us Part II',
     year: 2020,
     studio: 'Naughty Dog',
@@ -506,6 +508,7 @@ export const wishlist = [
     pitch: 'A drifter biker surviving huge Freaker hordes in the Pacific Northwest.',
   }),
   wish('mgsv', {
+    starred: true,
     title: 'Metal Gear Solid V',
     subtitle: 'The Phantom Pain',
     year: 2015,
@@ -522,6 +525,7 @@ export const wishlist = [
     pitch: 'Delsin Rowe absorbs smoke, neon and more to take on Seattle.',
   }),
   wish('ghost-of-tsushima', {
+    starred: true,
     title: 'Ghost of Tsushima',
     year: 2020,
     studio: 'Sucker Punch',
@@ -529,6 +533,7 @@ export const wishlist = [
     pitch: 'A samurai turns ghost to free Tsushima from the Mongol invasion.',
   }),
   wish('detroit', {
+    starred: true,
     title: 'Detroit: Become Human',
     year: 2018,
     studio: 'Quantic Dream',
@@ -536,6 +541,7 @@ export const wishlist = [
     pitch: 'Three androids, one city, and every choice changes the story.',
   }),
   wish('hogwarts-legacy', {
+    starred: true,
     title: 'Hogwarts Legacy',
     year: 2023,
     studio: 'Avalanche Software',
@@ -543,6 +549,7 @@ export const wishlist = [
     pitch: 'Live as a 1800s Hogwarts student who holds the key to an ancient secret.',
   }),
   wish('rdr2', {
+    starred: true,
     title: 'Red Dead Redemption 2',
     year: 2018,
     studio: 'Rockstar Games',
@@ -550,6 +557,7 @@ export const wishlist = [
     pitch: 'Arthur Morgan and the Van der Linde gang ride out the end of the Wild West.',
   }),
   wish('cyberpunk-2077', {
+    starred: true,
     title: 'Cyberpunk 2077',
     year: 2020,
     studio: 'CD Projekt Red',
@@ -557,6 +565,7 @@ export const wishlist = [
     pitch: 'A mercenary called V chases a one-of-a-kind implant through neon Night City.',
   }),
   wish('plague-tale', {
+    starred: true,
     title: 'A Plague Tale',
     subtitle: 'Series',
     year: 2019,
@@ -565,6 +574,7 @@ export const wishlist = [
     pitch: 'Innocence and Requiem: Amicia protects her little brother Hugo through plague-ridden 14th-century France.',
   }),
   wish('elden-ring', {
+    starred: true,
     title: 'Elden Ring',
     year: 2022,
     studio: 'FromSoftware',
@@ -572,6 +582,7 @@ export const wishlist = [
     pitch: 'A brutal open-world Souls adventure in the Lands Between, written with George R. R. Martin.',
   }),
   wish('hitman', {
+    starred: true,
     title: 'Hitman',
     subtitle: 'World of Assassination',
     year: 2021,
@@ -580,6 +591,7 @@ export const wishlist = [
     pitch: 'The whole trilogy: Agent 47’s sandbox contracts from Paris to Dubai.',
   }),
   wish('arkham-asylum', {
+    starred: true,
     title: 'Batman',
     subtitle: 'Arkham Asylum',
     year: 2009,
@@ -588,6 +600,7 @@ export const wishlist = [
     pitch: 'Where the Arkham series began: one night locked in the asylum with the Joker.',
   }),
   wish('shadow-tomb-raider', {
+    starred: true,
     title: 'Shadow of the Tomb Raider',
     year: 2018,
     studio: 'Eidos-Montréal',
@@ -602,6 +615,7 @@ export const wishlist = [
     pitch: 'An older, broken Max takes a bodyguard job in São Paulo and it goes wrong.',
   }),
   wish('nathan-drake-collection', {
+    starred: true,
     title: 'Uncharted',
     subtitle: 'The Nathan Drake Collection',
     year: 2015,
@@ -617,6 +631,7 @@ export const wishlist = [
     pitch: 'Peter and Miles team up against Kraven and the Venom symbiote.',
   }),
   wish('lost-crown', {
+    starred: true,
     title: 'Prince of Persia',
     subtitle: 'The Lost Crown',
     year: 2024,
@@ -625,6 +640,7 @@ export const wishlist = [
     pitch: 'A fast, time-bending 2D action platformer on the cursed Mount Qaf.',
   }),
   wish('mafia', {
+    starred: true,
     title: 'Mafia',
     subtitle: 'Definitive Edition',
     year: 2020,
@@ -633,6 +649,7 @@ export const wishlist = [
     pitch: 'Taxi driver Tommy Angelo rises in the mob of 1930s Lost Heaven.',
   }),
   wish('shadow-tactics', {
+    starred: true,
     title: 'Shadow Tactics',
     subtitle: 'Blades of the Shogun',
     year: 2016,
@@ -641,6 +658,7 @@ export const wishlist = [
     pitch: 'Commandos-style stealth tactics with a team of ninjas in Edo-era Japan.',
   }),
   wish('commandos-origins', {
+    starred: true,
     title: 'Commandos',
     subtitle: 'Origins',
     year: 2025,
@@ -658,6 +676,7 @@ export const wishlist = [
     pitch: 'An undercover cop takes on the Hong Kong triads with kung fu and car chases.',
   }),
   wish('god-of-war-ragnarok', {
+    starred: true,
     title: 'God of War',
     subtitle: 'Ragnarök',
     year: 2022,
@@ -690,6 +709,7 @@ export const wishlist = [
     pitch: 'Cloud and friends leave Midgar and chase Sephiroth across a huge open world.',
   }),
   wish('re4', {
+    starred: true,
     title: 'Resident Evil 4',
     subtitle: 'with Separate Ways',
     year: 2023,
@@ -698,6 +718,7 @@ export const wishlist = [
     pitch: 'Leon’s rescue mission in rural Spain, rebuilt. Separate Ways adds Ada Wong’s side of the story.',
   }),
   wish('sifu', {
+    starred: true,
     title: 'Sifu',
     year: 2022,
     studio: 'Sloclap',
@@ -719,6 +740,7 @@ export const wishlist = [
     pitch: 'Survival horror split between FBI agent Saga Anderson and a writer trapped in the Dark Place.',
   }),
   wish('dmc5', {
+    starred: true,
     title: 'Devil May Cry 5',
     year: 2019,
     studio: 'Capcom',
@@ -733,6 +755,7 @@ export const wishlist = [
     pitch: 'A roguelike bullet-hell where astronaut Selene relives every death on a shifting alien world.',
   }),
   wish('sekiro', {
+    starred: true,
     title: 'Sekiro',
     subtitle: 'Shadows Die Twice',
     year: 2019,
@@ -741,6 +764,7 @@ export const wishlist = [
     pitch: 'A one-armed shinobi in Sengoku Japan. Deflect, counter and die, then rise again.',
   }),
   wish('hellblade', {
+    starred: true,
     title: 'Hellblade',
     subtitle: 'Senua’s Sacrifice',
     year: 2017,
@@ -765,6 +789,7 @@ export const wishlist = [
     pitch: 'Each year the Paintress erases everyone of one age. Expedition 33 sets out to stop her.',
   }),
   wish('dying-light-2', {
+    starred: true,
     title: 'Dying Light 2',
     subtitle: 'Stay Human',
     year: 2022,
@@ -773,6 +798,7 @@ export const wishlist = [
     pitch: 'Parkour across the last big city on Earth by day, and survive the infected at night.',
   }),
   wish('shadow-of-the-erdtree', {
+    starred: true,
     title: 'Elden Ring',
     subtitle: 'Shadow of the Erdtree',
     year: 2024,
@@ -781,6 +807,7 @@ export const wishlist = [
     pitch: 'The huge expansion: follow Miquella into the Land of Shadow.',
   }),
   wish('ff7-remake', {
+    starred: true,
     title: 'Final Fantasy VII',
     subtitle: 'Remake Intergrade',
     year: 2020,
@@ -885,6 +912,7 @@ export const wishlist = [
     pitch: 'A broken America and two brothers who join the elite Ghosts squad. Riley the dog included.',
   }),
   wish('cod-aw', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Advanced Warfare',
     year: 2014,
@@ -893,6 +921,7 @@ export const wishlist = [
     pitch: 'Exosuits, boost jumps and Kevin Spacey as a private military CEO in 2054.',
   }),
   wish('cod-bo3', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Black Ops III',
     year: 2015,
@@ -901,6 +930,7 @@ export const wishlist = [
     pitch: 'Cybernetic soldiers in 2065, four-player co-op campaign and some of the best Zombies maps ever.',
   }),
   wish('cod-iw', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Infinite Warfare',
     year: 2016,
@@ -909,6 +939,7 @@ export const wishlist = [
     pitch: 'A space war across the solar system as Captain Reyes commands the warship Retribution.',
   }),
   wish('cod-mw-2019', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Modern Warfare',
     year: 2019,
@@ -917,6 +948,7 @@ export const wishlist = [
     pitch: 'A gritty reboot: Captain Price returns in a grounded, morally grey campaign.',
   }),
   wish('cod-cold-war', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Black Ops Cold War',
     year: 2020,
@@ -925,6 +957,7 @@ export const wishlist = [
     pitch: 'Woods, Mason and Adler hunt the Soviet spy Perseus across the 1980s.',
   }),
   wish('cod-mw2-2022', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Modern Warfare II',
     year: 2022,
@@ -933,6 +966,7 @@ export const wishlist = [
     pitch: 'Task Force 141 reunites with Ghost, Soap and Price to stop a missile threat in Mexico.',
   }),
   wish('battlefield-1', {
+    starred: true,
     title: 'Battlefield',
     subtitle: '1',
     year: 2016,
@@ -941,6 +975,7 @@ export const wishlist = [
     pitch: 'World War I on a huge scale: horses, zeppelins, tanks and 64-player battles.',
   }),
   wish('battlefield-v', {
+    starred: true,
     title: 'Battlefield',
     subtitle: 'V',
     year: 2018,
