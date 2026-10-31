@@ -25,7 +25,7 @@ export default function Wishlist({ games }) {
             </div>
             <div className="wish-text">
               <span className="wish-meta">
-                {g.studio} · {g.year}
+                {g.studio} · {g.year ?? 'TBA'}
               </span>
               <h3>
                 {g.title} {g.subtitle && <em>{g.subtitle}</em>}

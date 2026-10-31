@@ -793,10 +793,62 @@ export const wishlist = [
     accent: '#e0a13a',
     pitch: 'Indy races the Nazis around the world, from the Vatican to Giza, to unlock a mystery linking ancient sites.',
   }),
+  wish('phantom-blade-zero', {
+    title: 'Phantom Blade Zero',
+    year: 2026,
+    studio: 'S-GAME',
+    accent: '#c8423a',
+    pitch: 'Soul, an assassin with 66 days left to live, cuts through a dark wuxia world of conspiracies.',
+  }),
+  wish('tides-of-annihilation', {
+    title: 'Tides of Annihilation',
+    studio: 'Eclipse Glow Games',
+    accent: '#5f8fc4',
+    pitch: 'Arthurian legend meets a shattered modern London as Gwendolyn fights back against an otherworldly invasion.',
+  }),
+  wish('genigods-nezha', {
+    title: 'Genigods',
+    subtitle: 'Nezha',
+    studio: 'Genigods Lab',
+    accent: '#e0453a',
+    pitch: 'An action RPG retelling of Chinese creation myths, starring the rebellious young god Nezha.',
+  }),
+  wish('swords-of-legends', {
+    title: 'Swords of Legends',
+    studio: 'Aurogon Shanghai',
+    accent: '#c9b07a',
+    pitch: 'A primordial age where mortals, gods and wandering souls share the earth, drawn from classical Chinese tales.',
+  }),
+  wish('god-slayer', {
+    title: 'The God Slayer',
+    studio: 'Pathea Games',
+    accent: '#e0782c',
+    pitch: 'An Elemancer takes on the tyrant Celestials in an open-world, Eastern steampunk city.',
+  }),
+  wish('zhong-kui', {
+    title: 'Black Myth',
+    subtitle: 'Zhong Kui',
+    studio: 'Game Science',
+    accent: '#c8202f',
+    pitch: 'The Wukong studio’s next action RPG, based on the legend of Zhong Kui, the ghost-slaying demon queller.',
+  }),
+  wish('the-defiant', {
+    title: 'The Defiant',
+    studio: 'Haotang Technology',
+    accent: '#b23a2e',
+    pitch: 'A shooter telling heroic stories from the Chinese battlefields of World War II.',
+  }),
+  wish('jinyiwei', {
+    title: 'A Whisper of Fall',
+    subtitle: 'Jinyiwei',
+    studio: 'Cangmo Games',
+    accent: '#c8423a',
+    pitch: 'A Ming Dynasty imperial guard uses martial arts, lightness skill and deduction across shifting timelines.',
+  }),
 ]
 
-// Newest releases first; ties keep the order they were added.
-wishlist.sort((a, b) => b.year - a.year)
+// Oldest releases first; unannounced dates go last. Ties keep the order they were added.
+wishlist.sort((a, b) => (a.year ?? Infinity) - (b.year ?? Infinity))
 
 // completed = finished the story, played = multiplayer with no ending, playing = still in progress
 export const STATUS = {
