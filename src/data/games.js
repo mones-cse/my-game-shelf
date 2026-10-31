@@ -610,6 +610,7 @@ export const wishlist = [
     pitch: 'The end of Lara’s origin trilogy, deep in the jungles of Latin America.',
   }),
   wish('max-payne-3', {
+    movie: true,
     title: 'Max Payne 3',
     year: 2012,
     studio: 'Rockstar Studios',
@@ -688,6 +689,7 @@ export const wishlist = [
     pitch: 'Fimbulwinter falls as Kratos and Atreus face Odin, Thor and the end of the Norse saga.',
   }),
   wish('007-first-light', {
+    movie: true,
     title: '007',
     subtitle: 'First Light',
     year: 2026,
@@ -696,6 +698,7 @@ export const wishlist = [
     pitch: 'A young James Bond earns his licence to kill in an origin story from the Hitman studio.',
   }),
   wish('mw4', {
+    movie: true,
     title: 'Call of Duty',
     subtitle: 'Modern Warfare 4',
     year: 2026,
@@ -704,6 +707,7 @@ export const wishlist = [
     pitch: 'The Modern Warfare saga returns with a new campaign, multiplayer and DMZ.',
   }),
   wish('ff7-rebirth', {
+    movie: true,
     title: 'Final Fantasy VII',
     subtitle: 'Rebirth',
     year: 2024,
@@ -729,6 +733,7 @@ export const wishlist = [
     pitch: 'A kung fu revenge story where every death ages you, and mastery is the only way through.',
   }),
   wish('stellar-blade', {
+    movie: true,
     title: 'Stellar Blade',
     year: 2024,
     studio: 'Shift Up',
@@ -778,6 +783,7 @@ export const wishlist = [
     pitch: 'A Pict warrior journeys into Viking Helheim to save her lover’s soul, fighting the voices in her head.',
   }),
   wish('black-myth-wukong', {
+    movie: true,
     title: 'Black Myth',
     subtitle: 'Wukong',
     year: 2024,
@@ -786,6 +792,7 @@ export const wishlist = [
     pitch: 'The Destined One follows the legend of the Monkey King through Journey to the West.',
   }),
   wish('clair-obscur', {
+    movie: true,
     title: 'Clair Obscur',
     subtitle: 'Expedition 33',
     year: 2025,
@@ -821,6 +828,7 @@ export const wishlist = [
     pitch: 'Part one of the remake: Cloud and AVALANCHE take on Shinra in the city of Midgar.',
   }),
   wish('indiana-jones', {
+    movie: true,
     title: 'Indiana Jones',
     subtitle: 'and the Great Circle',
     year: 2024,
@@ -829,6 +837,7 @@ export const wishlist = [
     pitch: 'Indy races the Nazis around the world, from the Vatican to Giza, to unlock a mystery linking ancient sites.',
   }),
   wish('phantom-blade-zero', {
+    movie: true,
     title: 'Phantom Blade Zero',
     year: 2026,
     studio: 'S-GAME',
@@ -836,12 +845,14 @@ export const wishlist = [
     pitch: 'Soul, an assassin with 66 days left to live, cuts through a dark wuxia world of conspiracies.',
   }),
   wish('tides-of-annihilation', {
+    movie: true,
     title: 'Tides of Annihilation',
     studio: 'Eclipse Glow Games',
     accent: '#5f8fc4',
     pitch: 'Arthurian legend meets a shattered modern London as Gwendolyn fights back against an otherworldly invasion.',
   }),
   wish('genigods-nezha', {
+    movie: true,
     title: 'Genigods',
     subtitle: 'Nezha',
     studio: 'Genigods Lab',
@@ -849,18 +860,21 @@ export const wishlist = [
     pitch: 'An action RPG retelling of Chinese creation myths, starring the rebellious young god Nezha.',
   }),
   wish('swords-of-legends', {
+    movie: true,
     title: 'Swords of Legends',
     studio: 'Aurogon Shanghai',
     accent: '#c9b07a',
     pitch: 'A primordial age where mortals, gods and wandering souls share the earth, drawn from classical Chinese tales.',
   }),
   wish('god-slayer', {
+    movie: true,
     title: 'The God Slayer',
     studio: 'Pathea Games',
     accent: '#e0782c',
     pitch: 'An Elemancer takes on the tyrant Celestials in an open-world, Eastern steampunk city.',
   }),
   wish('zhong-kui', {
+    movie: true,
     title: 'Black Myth',
     subtitle: 'Zhong Kui',
     studio: 'Game Science',
@@ -868,12 +882,14 @@ export const wishlist = [
     pitch: 'The Wukong studio’s next action RPG, based on the legend of Zhong Kui, the ghost-slaying demon queller.',
   }),
   wish('the-defiant', {
+    movie: true,
     title: 'The Defiant',
     studio: 'Haotang Technology',
     accent: '#b23a2e',
     pitch: 'A shooter telling heroic stories from the Chinese battlefields of World War II.',
   }),
   wish('jinyiwei', {
+    movie: true,
     title: 'A Whisper of Fall',
     subtitle: 'Jinyiwei',
     studio: 'Cangmo Games',
