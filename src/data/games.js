@@ -474,6 +474,7 @@ export const games = [
 ]
 
 // Games I want to play next — only a cover and a backdrop each.
+// starred: true marks the ones I want to play first.
 const wish = (slug, data) => ({
   slug,
   ...data,
@@ -513,6 +514,7 @@ export const wishlist = [
     pitch: 'Open-world stealth as Big Boss builds an army without a nation.',
   }),
   wish('infamous-second-son', {
+    starred: true,
     title: 'inFAMOUS Second Son',
     year: 2014,
     studio: 'Sucker Punch',
@@ -647,6 +649,7 @@ export const wishlist = [
     pitch: 'A modern return of the classic squad, telling how the commandos first met.',
   }),
   wish('sleeping-dogs', {
+    starred: true,
     title: 'Sleeping Dogs',
     subtitle: 'Definitive Edition',
     year: 2014,
@@ -846,6 +849,7 @@ export const wishlist = [
     pitch: 'A Ming Dynasty imperial guard uses martial arts, lightness skill and deduction across shifting timelines.',
   }),
   wish('cod-mw2-2009', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Modern Warfare 2',
     year: 2009,
@@ -854,6 +858,7 @@ export const wishlist = [
     pitch: 'Task Force 141 hunts Makarov across the globe, from Rio’s favelas to a Gulag. “No Russian” and all.',
   }),
   wish('cod-mw3-2011', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Modern Warfare 3',
     year: 2011,
@@ -862,6 +867,7 @@ export const wishlist = [
     pitch: 'Price and Soap finish the hunt for Makarov as World War III spreads across Europe.',
   }),
   wish('cod-bo2', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Black Ops II',
     year: 2012,
@@ -870,6 +876,7 @@ export const wishlist = [
     pitch: 'Branching stories in the Cold War and 2025, with drones, choices and the villain Raul Menendez.',
   }),
   wish('cod-ghosts', {
+    starred: true,
     title: 'Call of Duty',
     subtitle: 'Ghosts',
     year: 2013,

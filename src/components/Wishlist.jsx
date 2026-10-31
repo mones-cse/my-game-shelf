@@ -22,6 +22,11 @@ export default function Wishlist({ games }) {
               <span className="wish-heart" aria-hidden>
                 ♥
               </span>
+              {g.starred && (
+                <span className="wish-star" title="Starred">
+                  ★
+                </span>
+              )}
             </div>
             <div className="wish-text">
               <span className="wish-meta">
